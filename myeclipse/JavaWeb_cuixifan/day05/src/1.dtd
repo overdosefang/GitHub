@@ -1,0 +1,12 @@
+	<!ELEMENT person (name+,age?,sex*,birthday,school)>
+	<!ELEMENT name (#PCDATA)>
+	<!ELEMENT age EMPTY>
+	<!ELEMENT sex ANY>
+	<!ELEMENT birthday (#PCDATA)>
+	<!ELEMENT school (#PCDATA)>
+	
+	<!ATTLIST name name CDATA #REQUIRED>
+	<!ATTLIST age id CDATA #FIXED "20">
+	<!ATTLIST sex value (男|女) #REQUIRED>
+	<!ATTLIST school name ID #IMPLIED>
+	<!ATTLIST birthday day CDATA "wwww">

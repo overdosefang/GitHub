@@ -1,0 +1,23 @@
+server:
+  port: 8082
+
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: root
+    url: jdbc:mysql://localhost:3306/template?characterEncoding=utf-8&useSSL=false
+    type: com.zaxxer.hikari.util.DriverDataSource
+  jackson:
+    default-property-inclusion: non_null
+
+# 对应utils目录下的IBaseMapper模板Mapper
+mapper:
+  mappers:
+  - tk.mybatis.mapper.common.Mapper
+  not-empty: false
+  identity: MYSQL
+
+
+

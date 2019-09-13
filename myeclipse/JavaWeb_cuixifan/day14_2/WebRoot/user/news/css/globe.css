@@ -1,0 +1,6 @@
+/* CSS Document */
+*{ margin:0; padding:0;}
+body{font-size:12px;}
+a{color:#000; text-decoration:none;}
+a:hover{color:#f60; text-decoratian:underline;}
+li{list-style:none;}

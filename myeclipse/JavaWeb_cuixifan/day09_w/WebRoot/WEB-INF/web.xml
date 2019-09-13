@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+  <servlet>
+    <servlet-name>defaultA</servlet-name>                      <!--这个是AServlet的配置信息 -->
+    <servlet-class>com.webservlet.AServlet</servlet-class>
+<!--     <load-on-startup>0</load-on-startup>  -->					<!--启动服务器时创建此servlet -->
+    <init-param>
+      <param-name>paramName1</param-name>
+      <param-value>paramValue1</param-value>                    
+    </init-param>
+    <init-param>
+      <param-name>paramName2</param-name>
+      <param-value>paramValue2</param-value>
+    </init-param>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>defaultA</servlet-name>
+    <url-pattern>/AServlet</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+    <servlet-name>defaultB</servlet-name>                          <!--这个是BServlet的配置信息 -->
+    <servlet-class>com.webservlet.BServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>defaultB</servlet-name>
+    <url-pattern>/BServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>CServlet</servlet-name>
+    <servlet-class>com.webservlet.CServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CServlet</servlet-name>
+    <url-pattern>/CServlet</url-pattern>
+  </servlet-mapping>
+</web-app>

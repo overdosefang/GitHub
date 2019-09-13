@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE person [
+	<!ELEMENT person (name+,age?,sex*,birthday,school)>
+	<!ELEMENT name (#PCDATA)>
+	<!ELEMENT age EMPTY>
+	<!ELEMENT sex ANY>
+	<!ELEMENT birthday (#PCDATA)>
+	<!ELEMENT school (#PCDATA)>
+	
+	<!ATTLIST name name CDATA #REQUIRED>
+	<!ATTLIST age id CDATA #FIXED "20">
+	<!ATTLIST sex value (男|女) #REQUIRED>
+	<!ATTLIST school name ID #IMPLIED>
+	<!ATTLIST birthday day CDATA "wwww">
+	
+]>
+<person>
+	<name name="李四">zhangsan</name>
+	<age id="20"></age>
+	<sex value="女">李四</sex>
+	<birthday day="2017">1212</birthday>
+	<school name="nihao">发动机</school>
+</person>

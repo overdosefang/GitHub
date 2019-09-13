@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+
+    <meta charset="UTF-8">
+    <title>index</title>
+    <link rel="shortcut icon" th:href="@{/favicon.ico}"/>
+    <link rel="bookmark" th:href="@{/favicon.ico}"/>
+</head>
+<body>
+<h4 th:text="${msg}"></h4>
+<h4 th:text="${user.id}"></h4>
+<h4 th:text="${user.username}"></h4>
+<img th:src="@{/identify}"  onclick="javascript:this.src=this.src+'?time='+Math.random()" style="height:40px; width:100px;" />
+</body>
+</html>

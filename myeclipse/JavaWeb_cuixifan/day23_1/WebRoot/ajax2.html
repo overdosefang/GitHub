@@ -1,0 +1,64 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>ajax1.html</title>
+
+<meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
+<meta http-equiv="description" content="this is my page">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+<script>
+	function createXMLHttpRequest() {//创建XMLHttpRequest的对象的方法
+		try {
+			return new XMLHttpRequest();//大多数浏览器
+		} catch (e) {
+			try {
+				return ActvieXObject("Msxml2.XMLHTTP");//IE6.0
+			} catch (e) {
+				try {
+					return ActvieXObject("Microsoft.XMLHTTP");//IE5.5及更早版本	
+				} catch (e) {
+					alert("哥们儿，您用的是什么浏览器啊？");
+					throw e;
+				}
+			}
+		}
+	}
+
+	window.onload = function() {//文档加载事件
+	
+		var btn = document.getElementById("btn");
+
+		btn.onclick = function() {
+			
+			var xmlHttp = createXMLHttpRequest();//获得XMLHttpRequest的对象
+			
+			xmlHttp.open("post", "/day23_1/AServlet", true);//建立服务器连接
+			
+			xmlHttp.setRequestHeader("Content-Type","application/x-www-form-urlencoded");//post请求多加入一个请求头
+			
+			xmlHttp.send("username=张三&password=123");//发送信息
+
+			xmlHttp.onreadystatechange = function() {
+				if (xmlHttp.readyState == 4 && xmlHttp.status == 200) {//双重判定
+					var text = xmlHttp.responseText;               //获取text
+					var h1 = document.getElementById("h1");
+					h1.innerHTML = text;
+					
+				}
+			};
+		};
+	};
+</script>
+</head>
+
+<body>
+	<input type="button" id="btn" value="点击这里" />
+	<h1 id="h1"></h1>
+	<form action="/day23_1/AServlet" method="get">
+		<!-- 这里点提交AServlet返回的内容覆盖整个页面 -->
+		<input type="submit" id="btn2" value="点击提交" />
+		<h1 id="h12"></h1>
+	</form>
+</body>
+</html>

@@ -1,0 +1,158 @@
+.logo {
+
+	height: 102px;
+	width: 990px;
+	margin:0 auto;
+	border-top:solid 4px #c00;
+	}
+.nav {
+	
+	height: 30px;
+	width: 990px;
+	margin:5px auto 0;
+	font-size:16px; font-weight:bold; background:#f60; line-height:30px;
+}
+.nav li{float:left;}
+
+.nav li a{display:block; width:80px; height:30px; text-align:center; color:#fff;}
+.nav li a:hover{background:#f00;}
+
+.pic {
+	height: 300px;
+	width: 988px;
+	margin:5px auto 0;
+  border:1px solid #ccc;
+	 
+}
+
+.pic_T{line-height:30px; height:30px;}
+.pic span{float:right; margin-right:20px;}
+.pic_T h3{font-size:14px; color:#f00; text-indent:24px;}
+
+.pic dl{float:left; width:180px; margin-left:14px; text-align:center; margin-top:10px;}
+.pic dd{line-height:26px;}
+.pic img{border:1px solid #ccc; padding:4px;}
+.nav2 {
+	
+	height: 35px;
+	width: 990px;
+	margin:5px auto 0;
+	line-height:35px; font-size:14px; text-align:center;
+	
+}
+.copy {	
+	height: 70px;
+	width: 990px;
+	margin:5px auto 0;
+	border-top:2px solid #c00;	
+	background:url(../images/15089070_141217781000_3.jpg) no-repeat right center;
+}
+.copy p{line-height:30px; text-indent:30px}
+
+.con {
+	
+	height: 322px;
+	width: 990px;
+	margin:5px auto;
+}
+.ad {
+	
+	float: left;
+	height: 322px;
+	width: 660px;
+}
+.news {
+	float: right;
+	height: 320px;
+	width: 323px;
+	font-szie:16px;
+	border:1px solid #ccc;
+	
+}
+.flogo {
+	height: 102px;
+	width: 340px;
+	float:left;
+}
+.banner {
+	float: right;
+	height: 102px;
+	width: 650px;
+}
+.new_T {
+	height: 30px;
+	border-bottom:1px solid #ccc;
+	line-height:30px;
+	
+}
+.new_T span{float:right; margin-right:24px;}
+.new_T h3{ 
+             text-indent:24px; 
+			 font-size:14px; 
+			 color:#f00;}
+.news li{line-height:26px; }
+.news ul{margin-left:8px;}.pic_T {
+	height: 30px;
+}
+.pic_T {
+	height: 30px;
+}
+.pic_T {
+	height: 30px;
+}
+.pic_B {
+}
+.news1 {
+	width: 660px;
+    margin:5px auto 0;
+	font-size:20px;
+	text-indent:50px;
+	line-height:25px;
+}
+.pic1 {
+	width: 660px;
+	    margin:5px auto 0;
+}
+.pic1 dl{ float:inherit; margin-left:14px; text-align:center; margin-top:10px;}
+.pic1 dd{
+	line-height:40px;
+	font-size: 18px;
+}
+.pic2 {
+	width: 660px;
+	 margin:20px auto 0;
+}
+.pic2 dl{ float:inherit; margin-left:14px; text-align:center; margin-top:10px;}
+.pic2 dd{
+	line-height:40px;
+	font-size: 18px;
+}
+.news2 {
+	width: 660px;
+    margin:5px auto 0;
+	font-size:20px;
+	
+	
+	}
+.new3 {
+	width: 660px;
+    margin:5px auto 0;
+	font-size:20px;
+	line-height:30px;
+	text-indent:40px;
+	
+}
+.new4 {
+	width: 660px;
+	line-height:30px;
+    margin:5px auto 0;
+	font-size:20px;
+}
+.news5 {
+	width: 770px;
+	margin: 10px auto 20px;
+	font-size: 16px;
+	text-align: center;
+	
+
+}

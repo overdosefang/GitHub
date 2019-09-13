@@ -1,0 +1,11 @@
+2018-11-01 11:27:59.257  INFO 13632 --- [main] .q.s.SpringBoot03LoggingApplicationTests : Starting SpringBoot03LoggingApplicationTests on LAPTOP-E6N30IOF with PID 13632 (started by 风雨声 in E:\IdeaProjects\shangguigu\spring-boot-03-logging)
+2018-11-01 11:27:59.260 DEBUG 13632 --- [main] .q.s.SpringBoot03LoggingApplicationTests : Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2018-11-01 11:27:59.263  INFO 13632 --- [main] .q.s.SpringBoot03LoggingApplicationTests : No active profile set, falling back to default profiles: default
+2018-11-01 11:28:00.780  INFO 13632 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2018-11-01 11:28:01.055  INFO 13632 --- [main] .q.s.SpringBoot03LoggingApplicationTests : Started SpringBoot03LoggingApplicationTests in 2.152 seconds (JVM running for 3.099)
+2018-11-01 11:28:01.247 TRACE 13632 --- [main] .q.s.SpringBoot03LoggingApplicationTests : 这是trace日志。。。
+2018-11-01 11:28:01.248 DEBUG 13632 --- [main] .q.s.SpringBoot03LoggingApplicationTests : 这是debug日志。。。
+2018-11-01 11:28:01.248  INFO 13632 --- [main] .q.s.SpringBoot03LoggingApplicationTests : 这是info日志。。。
+2018-11-01 11:28:01.248  WARN 13632 --- [main] .q.s.SpringBoot03LoggingApplicationTests : 这是warn日志。。。
+2018-11-01 11:28:01.248 ERROR 13632 --- [main] .q.s.SpringBoot03LoggingApplicationTests : 这是error日志。。。
+2018-11-01 11:28:01.254  INFO 13632 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'

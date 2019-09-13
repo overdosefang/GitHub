@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <script src="http://libs.baidu.com/jquery/2.1.4/jquery.min.js"></script>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h4>成功页面</h4>
+<div th:if="${userFileList.size()!=0}" th:each="userFile:${userFileList}">
+    <img th:src="${userFile.getPath()}" width="100"/><input type="button" th:id="${userFile.id}" th:onclick="'delete_pic(\''+${userFile.id}+'\')'"  th:value="删除"/>
+</div>
+</body>
+
+<script type="text/javascript">
+    $(function(){
+
+    });
+
+    /**
+     * 删除指定图片
+     */
+   function delete_pic(id){
+        $.ajax({
+            url:"ajax-delete-pic",
+            type:"post",
+            data:{"id":id},
+            success: function(data)
+            {
+                if(data.msg=="删除成功！"){
+                    alert("删除成功！");
+                    $("#"+id).parent().remove();
+                }
+            },
+            error: function() {
+                alert("error");
+            }
+        });
+
+
+    }
+</script>
+
+</html>
