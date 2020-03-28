@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0b279bf7-8d86-4a7b-ba63-dd6c13b7d26d" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIEW_PUSH_ON_COMMIT_AND_PUSH" value="false" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1YGfoO2Hs86SRBlLsTYzsF6XGby" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.joyin.collection" />
+      <recent name="com.joyin.jicheng" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.FileDemo">
+    <configuration name="CollectionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.joyin.collection.CollectionDemo" />
+      <module name="JavaSe_liuyi_2019" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.joyin.collection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CollectionDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.joyin.collection.CollectionDemo2" />
+      <module name="JavaSe_liuyi_2019" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.joyin.collection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DateDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.joyin.date.DateDemo" />
+      <module name="JavaSe_liuyi_2019" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.joyin.date.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.joyin.fanxin.Demo" />
+      <module name="JavaSe_liuyi_2019" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.joyin.fanxin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FileDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.joyin.file.FileDemo" />
+      <module name="JavaSe_liuyi_2019" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.joyin.file.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.FileDemo" />
+        <item itemvalue="Application.Demo" />
+        <item itemvalue="Application.CollectionDemo2" />
+        <item itemvalue="Application.CollectionDemo" />
+        <item itemvalue="Application.DateDemo" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0b279bf7-8d86-4a7b-ba63-dd6c13b7d26d" name="Default Changelist" comment="" />
+      <created>1582574025947</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582574025947</updated>
+      <workItem from="1582574028856" duration="88000" />
+      <workItem from="1582574127290" duration="640000" />
+      <workItem from="1582574782458" duration="935000" />
+      <workItem from="1582615871721" duration="2576000" />
+      <workItem from="1582647243095" duration="4708000" />
+      <workItem from="1582739348108" duration="6424000" />
+      <workItem from="1582991259053" duration="9909000" />
+      <workItem from="1583350557600" duration="2500000" />
+      <workItem from="1583393789612" duration="1498000" />
+      <workItem from="1583432682041" duration="779000" />
+      <workItem from="1583666317360" duration="4933000" />
+      <workItem from="1585281513957" duration="1506000" />
+      <workItem from="1585355810758" duration="1482000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="367" y="74" key="#Notifications" timestamp="1582575030701">
+      <screen x="0" y="0" width="1549" height="831" />
+    </state>
+    <state x="367" y="74" key="#Notifications/0.0.1549.831@0.0.1549.831" timestamp="1582575030701" />
+    <state x="230" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582574754893">
+      <screen x="0" y="0" width="1549" height="831" />
+    </state>
+    <state x="230" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1549.831@0.0.1549.831" timestamp="1582574754893" />
+    <state x="551" y="127" key="#com.intellij.ide.util.MemberChooser" timestamp="1583686697755">
+      <screen x="0" y="0" width="1549" height="831" />
+    </state>
+    <state x="551" y="127" key="#com.intellij.ide.util.MemberChooser/0.0.1549.831@0.0.1549.831" timestamp="1583686697755" />
+    <state x="568" y="300" width="413" height="239" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1582826592722">
+      <screen x="0" y="0" width="1549" height="831" />
+    </state>
+    <state x="568" y="300" width="413" height="239" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1549.831@0.0.1549.831" timestamp="1582826592722" />
+    <state x="631" y="171" key="FileChooserDialogImpl" timestamp="1582574388110">
+      <screen x="0" y="0" width="1549" height="831" />
+    </state>
+    <state x="631" y="171" key="FileChooserDialogImpl/0.0.1549.831@0.0.1549.831" timestamp="1582574388110" />
+    <state width="1506" height="185" key="GridCell.Tab.0.bottom" timestamp="1585362375450">
+      <screen x="0" y="0" width="1549" height="831" />
+    </state>
+    <state width="1506" height="185" key="GridCell.Tab.0.bottom/0.0.1549.831@0.0.1549.831" timestamp="1585362375450" />
+    <state width="1506" height="185" key="GridCell.Tab.0.center" timestamp="1585362375449">
+      <screen x="0" y="0" width="1549" height="831" />
+    </state>
+    <state width="1506" height="185" key="GridCell.Tab.0.center/0.0.1549.831@0.0.1549.831" timestamp="1585362375449" />
+    <state width="1506" height="185" key="GridCell.Tab.0.left" timestamp="1585362375448">
+      <screen x="0" y="0" width="1549" height="831" />
+    </state>
+    <state width="1506" height="185" key="GridCell.Tab.0.left/0.0.1549.831@0.0.1549.831" timestamp="1585362375448" />
+    <state width="1506" height="185" key="GridCell.Tab.0.right" timestamp="1585362375450">
+      <screen x="0" y="0" width="1549" height="831" />
+    </state>
+    <state width="1506" height="185" key="GridCell.Tab.0.right/0.0.1549.831@0.0.1549.831" timestamp="1585362375450" />
+    <state width="1506" height="265" key="GridCell.Tab.1.bottom" timestamp="1583005037787">
+      <screen x="0" y="0" width="1549" height="831" />
+    </state>
+    <state width="1506" height="265" key="GridCell.Tab.1.bottom/0.0.1549.831@0.0.1549.831" timestamp="1583005037787" />
+    <state width="1506" height="265" key="GridCell.Tab.1.center" timestamp="1583005037787">
+      <screen x="0" y="0" width="1549" height="831" />
+    </state>
+    <state width="1506" height="265" key="GridCell.Tab.1.center/0.0.1549.831@0.0.1549.831" timestamp="1583005037787" />
+    <state width="1506" height="265" key="GridCell.Tab.1.left" timestamp="1583005037787">
+      <screen x="0" y="0" width="1549" height="831" />
+    </state>
+    <state width="1506" height="265" key="GridCell.Tab.1.left/0.0.1549.831@0.0.1549.831" timestamp="1583005037787" />
+    <state width="1506" height="265" key="GridCell.Tab.1.right" timestamp="1583005037787">
+      <screen x="0" y="0" width="1549" height="831" />
+    </state>
+    <state width="1506" height="265" key="GridCell.Tab.1.right/0.0.1549.831@0.0.1549.831" timestamp="1583005037787" />
+    <state x="374" y="77" key="SettingsEditor" timestamp="1582739626427">
+      <screen x="0" y="0" width="1549" height="831" />
+    </state>
+    <state x="374" y="77" key="SettingsEditor/0.0.1549.831@0.0.1549.831" timestamp="1582739626427" />
+    <state x="467" y="240" key="com.intellij.ide.util.TipDialog" timestamp="1582574062029">
+      <screen x="0" y="0" width="1549" height="831" />
+    </state>
+    <state x="467" y="240" key="com.intellij.ide.util.TipDialog/0.0.1549.831@0.0.1549.831" timestamp="1582574062029" />
+    <state x="579" y="333" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582993072704">
+      <screen x="0" y="0" width="1549" height="831" />
+    </state>
+    <state x="579" y="333" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1549.831@0.0.1549.831" timestamp="1582993072704" />
+    <state x="334" y="152" width="881" height="604" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1582649908613">
+      <screen x="0" y="0" width="1549" height="831" />
+    </state>
+    <state x="334" y="152" width="881" height="604" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1549.831@0.0.1549.831" timestamp="1582649908613" />
+  </component>
+</project>
