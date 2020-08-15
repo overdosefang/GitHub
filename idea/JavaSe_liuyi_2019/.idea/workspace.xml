@@ -1,7 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b279bf7-8d86-4a7b-ba63-dd6c13b7d26d" name="Default Changelist" comment="" />
+    <list default="true" id="0b279bf7-8d86-4a7b-ba63-dd6c13b7d26d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/joyin/stream/StreamDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/joyin/stream/StreamDemo.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,7 +46,6 @@
   <component name="ProjectId" id="1YGfoO2Hs86SRBlLsTYzsF6XGby" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -44,7 +64,7 @@
       <recent name="com.joyin.jicheng" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FileDemo">
+  <component name="RunManager" selected="Application.StreamDemo">
     <configuration name="CollectionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.joyin.collection.CollectionDemo" />
       <module name="JavaSe_liuyi_2019" />
@@ -64,19 +84,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.joyin.collection.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DateDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.joyin.date.DateDemo" />
-      <module name="JavaSe_liuyi_2019" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.joyin.date.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,13 +117,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StreamDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.joyin.stream.StreamDemo" />
+      <module name="JavaSe_liuyi_2019" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.joyin.stream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StreamDemo" />
         <item itemvalue="Application.FileDemo" />
         <item itemvalue="Application.Demo" />
         <item itemvalue="Application.CollectionDemo2" />
         <item itemvalue="Application.CollectionDemo" />
-        <item itemvalue="Application.DateDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -149,74 +169,29 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="367" y="74" key="#Notifications" timestamp="1582575030701">
-      <screen x="0" y="0" width="1549" height="831" />
+    <state width="1505" height="226" key="GridCell.Tab.0.bottom" timestamp="1597455544369">
+      <screen x="0" y="0" width="1549" height="871" />
     </state>
-    <state x="367" y="74" key="#Notifications/0.0.1549.831@0.0.1549.831" timestamp="1582575030701" />
-    <state x="230" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582574754893">
-      <screen x="0" y="0" width="1549" height="831" />
+    <state width="1505" height="226" key="GridCell.Tab.0.bottom/0.0.1549.871@0.0.1549.871" timestamp="1597455544369" />
+    <state width="1505" height="226" key="GridCell.Tab.0.center" timestamp="1597455544369">
+      <screen x="0" y="0" width="1549" height="871" />
     </state>
-    <state x="230" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1549.831@0.0.1549.831" timestamp="1582574754893" />
-    <state x="551" y="127" key="#com.intellij.ide.util.MemberChooser" timestamp="1583686697755">
-      <screen x="0" y="0" width="1549" height="831" />
+    <state width="1505" height="226" key="GridCell.Tab.0.center/0.0.1549.871@0.0.1549.871" timestamp="1597455544369" />
+    <state width="1505" height="226" key="GridCell.Tab.0.left" timestamp="1597455544369">
+      <screen x="0" y="0" width="1549" height="871" />
     </state>
-    <state x="551" y="127" key="#com.intellij.ide.util.MemberChooser/0.0.1549.831@0.0.1549.831" timestamp="1583686697755" />
-    <state x="568" y="300" width="413" height="239" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1582826592722">
-      <screen x="0" y="0" width="1549" height="831" />
+    <state width="1505" height="226" key="GridCell.Tab.0.left/0.0.1549.871@0.0.1549.871" timestamp="1597455544369" />
+    <state width="1505" height="226" key="GridCell.Tab.0.right" timestamp="1597455544369">
+      <screen x="0" y="0" width="1549" height="871" />
     </state>
-    <state x="568" y="300" width="413" height="239" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1549.831@0.0.1549.831" timestamp="1582826592722" />
-    <state x="631" y="171" key="FileChooserDialogImpl" timestamp="1582574388110">
-      <screen x="0" y="0" width="1549" height="831" />
+    <state width="1505" height="226" key="GridCell.Tab.0.right/0.0.1549.871@0.0.1549.871" timestamp="1597455544369" />
+    <state x="580" y="349" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597455307437">
+      <screen x="0" y="0" width="1549" height="871" />
     </state>
-    <state x="631" y="171" key="FileChooserDialogImpl/0.0.1549.831@0.0.1549.831" timestamp="1582574388110" />
-    <state width="1506" height="185" key="GridCell.Tab.0.bottom" timestamp="1585362375450">
-      <screen x="0" y="0" width="1549" height="831" />
-    </state>
-    <state width="1506" height="185" key="GridCell.Tab.0.bottom/0.0.1549.831@0.0.1549.831" timestamp="1585362375450" />
-    <state width="1506" height="185" key="GridCell.Tab.0.center" timestamp="1585362375449">
-      <screen x="0" y="0" width="1549" height="831" />
-    </state>
-    <state width="1506" height="185" key="GridCell.Tab.0.center/0.0.1549.831@0.0.1549.831" timestamp="1585362375449" />
-    <state width="1506" height="185" key="GridCell.Tab.0.left" timestamp="1585362375448">
-      <screen x="0" y="0" width="1549" height="831" />
-    </state>
-    <state width="1506" height="185" key="GridCell.Tab.0.left/0.0.1549.831@0.0.1549.831" timestamp="1585362375448" />
-    <state width="1506" height="185" key="GridCell.Tab.0.right" timestamp="1585362375450">
-      <screen x="0" y="0" width="1549" height="831" />
-    </state>
-    <state width="1506" height="185" key="GridCell.Tab.0.right/0.0.1549.831@0.0.1549.831" timestamp="1585362375450" />
-    <state width="1506" height="265" key="GridCell.Tab.1.bottom" timestamp="1583005037787">
-      <screen x="0" y="0" width="1549" height="831" />
-    </state>
-    <state width="1506" height="265" key="GridCell.Tab.1.bottom/0.0.1549.831@0.0.1549.831" timestamp="1583005037787" />
-    <state width="1506" height="265" key="GridCell.Tab.1.center" timestamp="1583005037787">
-      <screen x="0" y="0" width="1549" height="831" />
-    </state>
-    <state width="1506" height="265" key="GridCell.Tab.1.center/0.0.1549.831@0.0.1549.831" timestamp="1583005037787" />
-    <state width="1506" height="265" key="GridCell.Tab.1.left" timestamp="1583005037787">
-      <screen x="0" y="0" width="1549" height="831" />
-    </state>
-    <state width="1506" height="265" key="GridCell.Tab.1.left/0.0.1549.831@0.0.1549.831" timestamp="1583005037787" />
-    <state width="1506" height="265" key="GridCell.Tab.1.right" timestamp="1583005037787">
-      <screen x="0" y="0" width="1549" height="831" />
-    </state>
-    <state width="1506" height="265" key="GridCell.Tab.1.right/0.0.1549.831@0.0.1549.831" timestamp="1583005037787" />
-    <state x="374" y="77" key="SettingsEditor" timestamp="1582739626427">
-      <screen x="0" y="0" width="1549" height="831" />
-    </state>
-    <state x="374" y="77" key="SettingsEditor/0.0.1549.831@0.0.1549.831" timestamp="1582739626427" />
-    <state x="467" y="240" key="com.intellij.ide.util.TipDialog" timestamp="1582574062029">
-      <screen x="0" y="0" width="1549" height="831" />
-    </state>
-    <state x="467" y="240" key="com.intellij.ide.util.TipDialog/0.0.1549.831@0.0.1549.831" timestamp="1582574062029" />
-    <state x="579" y="333" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582993072704">
-      <screen x="0" y="0" width="1549" height="831" />
-    </state>
-    <state x="579" y="333" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1549.831@0.0.1549.831" timestamp="1582993072704" />
-    <state x="334" y="152" width="881" height="604" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1582649908613">
-      <screen x="0" y="0" width="1549" height="831" />
-    </state>
-    <state x="334" y="152" width="881" height="604" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1549.831@0.0.1549.831" timestamp="1582649908613" />
+    <state x="580" y="349" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1549.871@0.0.1549.871" timestamp="1597455307437" />
   </component>
 </project>

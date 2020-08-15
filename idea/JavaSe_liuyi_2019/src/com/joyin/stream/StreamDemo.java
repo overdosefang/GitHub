@@ -28,6 +28,9 @@ public class StreamDemo {
         for (String threeStr : threeList) {
             System.out.println(threeStr);
         }
+        System.out.println("-----------------");
+
+        list.stream().filter(s -> s.length() == 3).filter(s -> s.startsWith("张")).forEach(s -> System.out.println(s));
 
 
     }
