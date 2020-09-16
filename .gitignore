@@ -1,6 +1,7 @@
 #java
 *.class
 bin/
+out/
 
 #package file
 *.war
