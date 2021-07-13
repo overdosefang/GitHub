@@ -20,7 +20,6 @@ build/
 
 #Intellij idea
 .idea/
-/idea/
 *.ipr
 *.iml
 *.iws

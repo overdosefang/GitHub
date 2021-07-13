@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<!--    <bean id="userDao" class="com.fang.UserDaoImpl" scope="prototype" ></bean>-->
+<!--    <bean id="userDao" class="com.fang.factory.StaticFactory" factory-method="getUserDao" ></bean>-->
+    <bean id="dynamicFactory" class="com.fang.factory.DynamicFactory" ></bean>
+    <bean id="userDao" factory-bean="dynamicFactory" factory-method="getUserDao" ></bean>
+
+</beans>
